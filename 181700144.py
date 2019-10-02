@@ -147,7 +147,7 @@ while 1:  # 循环直到读到END
 		cnt=cnt+1
 	s1=dict()
 	s1['姓名']=add['name']
-	s1['电话']=add['telephone']
+	s1['手机']=add['telephone']
 	s1['地址']=result
 
 	json_str= json.dumps(s1, ensure_ascii=False)
